@@ -1,0 +1,190 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  * {
+    box-sizing: border-box;
+     font-family: 'Poppins';
+     font-style: normal;
+  }
+  
+  .nav{
+    height: 5 em;
+    justify-content:center;
+    align-items:center;
+    }
+      
+  
+  .content-container { 
+   max-width: 75em;
+    justify-content:center;
+    }
+  
+  .row {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .row-centered {
+    align-items: center;
+      }
+  
+  .vector {
+    width: 6.5em;
+      height: 2.5em;
+    padding:0em;
+    background:transparent;
+    border:none;
+    margin-left:0.75em;
+  }
+  
+  .logo-app {
+   width:324px; 
+  height:80px;
+  }
+  
+  
+  #svg {
+      width: 2.5em;
+      height: 2.27em;
+    margin-right: 1em;
+  } 
+      
+   .title {
+      font-weight: 43.75em;
+      font-size: 1.88em;
+      line-height: 1.68em;
+      color: #173A56;
+  }
+  
+  .nav-bar-wrapper{
+  justify-content:space-between;
+    width:100%
+  }
+  
+  .nav-link-container>a {
+    text-decoration:none;
+    
+     margin:1.25em;
+    color: #22343D;
+  font-size: 1em;
+  line-height: 1.75em;
+  }
+  
+  .nav-link-container {
+    margin-left:13.56em;
+    height: 1.75em;
+    width:23.68em;
+    margin-top:1.68em;
+    margin-right:2.125em;
+  }
+  
+  
+  .button-link{
+    width:9.68em;
+    height:1.5em;
+    color:#02897A;
+    background-color: transparent;
+  font-weight: 37.5em;
+  font-size: 0.937em;
+  line-height: 0.25em;
+  text-decoration-line: underline;
+    flex-direction:row;
+    border:none;
+    }
+  
+  button {
+    width:6.81em;
+    height:2.687em;
+    left:60.25em;
+  font-weight: 37.5em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+    /*padding:10px 22.22px 9px 25.25px;*/
+   border-radius: 0.25em;
+    white-space:pre;
+  }
+  
+  #bottom1 {
+    background-color:#ffffff;
+   border: 1px solid #BCD0E5;
+    border-radius: 0.25em;
+    margin-right:0.857em;
+    margin-left:1.5em;
+  }
+  
+  #bottom2 { 
+  background: #02897A;
+    font-size: 0.875em;
+     line-height: 1.5em;
+  border-radius:0.25em;
+  color:white;
+  border:none;
+  text-align:center;
+  }
+  
+  .image-button {
+    width: 2em;
+    height:2em;
+    border-radius:6.25em;
+    margin:1.5em 9em 1.5em 0em;
+  }
+  
+  #menu-icon {
+    height: 31px;
+  width: 28px;
+  top: 19px;
+  border-radius: 0px;  
+    display:none;
+  }
+  
+  .main-header {
+    font-size:2.5em;
+    font-weight:43.75em;
+  }
+  
+  
+  .content-left-low,.content-right-low {
+    width:40%;
+    align items: center;
+  }
+    
+  .paragraph1 {
+    width: 101%;
+  height: 5.93em;
+  left: 9.937em;
+  top: 22.687em;
+  font-weight: 31.25em;
+  font-size: 1.125em;
+  line-height: 1.75em;
+    color: #22343D
+  }
+  
+   
+  .image {
+  width: 37.5em;
+  height: 34.73em;
+    background-position:center;
+    background-size:content;
+  }
+  
+  .button2 {
+    width: 10.937em;
+  height: 3.687em;
+  left: 8.75em;
+  top: 31.43em;
+  text-align:center;
+  justify-content:flex-start; 
+  }
+  
+  .play-icon {
+  left: 1.093em;
+  top: 0.093em;
+  border-radius: 0.0703125em;
+    margin-left:1.875em;
+  }
+  @media sceen and (max-width:600px) {
+    display:flex;
+  }
